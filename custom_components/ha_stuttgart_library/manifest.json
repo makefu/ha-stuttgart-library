@@ -1,0 +1,11 @@
+{
+  "codeowners": ["@makefu"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/makefu/ha-stuttgart-library",
+  "domain": "ha_stuttgart_library",
+  "iot_class": "cloud_polling",
+  "name": "Stuttgart Library",
+  "requirements": [],
+  "version": "1.0.0"
+}

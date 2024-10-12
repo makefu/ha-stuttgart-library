@@ -6,11 +6,16 @@ authors = ["makefu <github@syntax-fehler.de>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "~3.12"
 requests = "^2.28.1"
 beautifulsoup4 = "^4.11.1"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-cov = "^5.0.0"
+pytest-homeassistant-custom-component = "^0.13.173"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

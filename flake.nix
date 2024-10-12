@@ -33,7 +33,7 @@
         #
         # Use this shell for developing your app.
         devShells.default = pkgs.mkShell {
-          inputsFrom = [ self.packages.${system}.myapp ];
+          inputsFrom = [ ];
           nativeBuildInputs = with pkgs; [
             pre-commit poetry
           ];

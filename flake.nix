@@ -35,7 +35,7 @@
         devShells.default = pkgs.mkShell {
           inputsFrom = [ self.packages.${system}.myapp ];
           nativeBuildInputs = with pkgs.python3Packages; [
-            pre-commit
+            pre-commit poetry
           ];
           
         };
